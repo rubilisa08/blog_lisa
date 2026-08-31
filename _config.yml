@@ -1,0 +1,29 @@
+title: Lisa's Learning Log
+description: 개발과 학습 과정을 기록하는 블로그
+author: Lisa Park
+email: lisapark0813@gmail.com
+
+url: "https://rubilisa08.github.io"
+baseurl: "/blog_lisa"
+
+theme: minima
+minima:
+  skin: auto
+  social_links:
+    github: rubilisa08
+
+header_pages:
+  - about.md
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
